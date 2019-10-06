@@ -1,10 +1,11 @@
-.item { 
+.item {
   .mat-card {
     margin: 0 16px;
     .mat-card-content {
       position: relative;
       padding: 2rem;
       min-height: 360px; // Adjust height as your need
+      color: white;
     }
     .company-logo {
      padding-bottom: 24px;
@@ -37,6 +38,6 @@
 
       }
     }
-    
+
   }
 }

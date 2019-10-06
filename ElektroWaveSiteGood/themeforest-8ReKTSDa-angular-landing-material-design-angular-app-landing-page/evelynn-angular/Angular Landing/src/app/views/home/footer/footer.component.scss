@@ -10,7 +10,7 @@
   box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.2);
 }
 .footer-box:first-child {
-  padding-left: 0; 
+  padding-left: 0;
 }
 .footer-box-title {
   position: relative;
@@ -24,7 +24,7 @@
   left: 0;
   height: 2px;
   width: 64px;
-  background-color: #ffc107;
+  background-color: rgb(162, 59, 101);
 }
 .footer-box .mat-list {
   padding: 0 !important;
@@ -57,6 +57,9 @@
 .social-icon.facebook {
   background: url('../../../../assets/images/social-facebook.png') no-repeat center center;
 }
+.social-icon.instagram {
+  background: url('../../../../assets/images/social-instagram.png') no-repeat center center;
+}
 .social-icon.twitter {
   background: url('../../../../assets/images/social-twitter.png') no-repeat center center;
 }
@@ -69,7 +72,7 @@
 
 @media (max-width: 959px) {
   .footer-box:first-child {
-    padding-left: 30px; 
+    padding-left: 30px;
   }
   .footer-box {
       box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);

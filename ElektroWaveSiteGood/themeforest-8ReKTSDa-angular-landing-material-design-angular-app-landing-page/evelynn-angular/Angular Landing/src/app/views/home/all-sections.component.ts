@@ -27,6 +27,6 @@ export class AllSectionsComponent implements OnInit, OnDestroy {
   }
   ngOnDestroy() {
   }
-  
+
 
 }

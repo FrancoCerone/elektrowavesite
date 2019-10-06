@@ -10,13 +10,12 @@ export class TestimonialsCarouselComponent implements OnInit {
   @Input('backgroundGray') public backgroundGray;
   public carouselOptions: NguCarouselConfig;
   public testimonials = [{
-    logo: 'assets/images/mock-logo-4.png',
-    photo: 'assets/images/face-1.jpg',
-    text: `“I’ve tried using different softwares. The computer is not my strong side. 
-    There is excellent support behind DevEgret and people to walk you through it. 
-    If you have any questions they’ll go over that and explain to you how to do that. ”`,
-    title: 'Jhone Doe',
-    subtitle: 'Product Manager'
+    photo: 'assets/images/primate.png',
+    text: `"Primate nasce nella Valdelsa anni 90’.
+            Cresciuto con Marley in cuffia, ha iniziato a sperimentare con la voce ascoltando i big del roots reggae.
+            Il suo stile è roots, primitivo, richiama i ritmi e i bassi dei ghetti di Kingstone. “Più una scimmia sale in alto, più mostra la sua coda.” ”`,
+    title: 'Primate',
+    subtitle: 'Singer'
   }, {
     logo: 'assets/images/mock-logo-2.png',
     photo: 'assets/images/face-2.jpg',

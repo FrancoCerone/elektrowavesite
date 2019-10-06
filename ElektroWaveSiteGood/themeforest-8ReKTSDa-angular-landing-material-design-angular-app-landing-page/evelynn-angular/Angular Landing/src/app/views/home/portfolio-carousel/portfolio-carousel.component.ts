@@ -25,7 +25,7 @@ export class PortfolioCarouselComponent implements OnInit {
     vitae dignissimos, sapiente est atque tenetur`,
     title: 'Project Two',
   }, {
-    photo: 'assets/images/sq-12.jpg',
+    photo: 'assets/images/coppia.jpg',
     text: `Adipisci quas repellat sed. Quasi quaerat aut nam possimus
     vitae dignissimos, sapiente est atque tenetur`,
     title: 'Project Three',
