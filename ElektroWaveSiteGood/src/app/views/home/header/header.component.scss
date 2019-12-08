@@ -19,6 +19,7 @@
 #home-header:not(.header-fixed) .hometop-btn ::ng-deep .mat-button-ripple {
   top: -22px;
   bottom: -22px;
+
 }
 
 .header-fixed {
@@ -36,6 +37,9 @@
 }
 .header-fixed .hometop-btn {
   line-height: 60px !important;
+
+
+
 }
 .home-logo {
   display: flex;
