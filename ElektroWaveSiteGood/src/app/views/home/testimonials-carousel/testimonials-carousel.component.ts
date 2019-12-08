@@ -11,9 +11,9 @@ export class TestimonialsCarouselComponent implements OnInit {
   public carouselOptions: NguCarouselConfig;
   public testimonials = [{
     photo: 'assets/images/primate.png',
-    text: `"Primate nasce nella Valdelsa anni 90’.
+    text: `Primate nasce nella Valdelsa anni 90’.
             Cresciuto con Marley in cuffia, ha iniziato a sperimentare con la voce ascoltando i big del roots reggae.
-            Il suo stile è roots, primitivo, richiama i ritmi e i bassi dei ghetti di Kingstone. “Più una scimmia sale in alto, più mostra la sua coda.” ”`,
+            Il suo stile è roots, primitivo, richiama i ritmi e i bassi dei ghetti di Kingstone. Più una scimmia sale in alto, più mostra la sua coda.`,
     title: 'Primate',
     subtitle: 'Singer'
   }, {
