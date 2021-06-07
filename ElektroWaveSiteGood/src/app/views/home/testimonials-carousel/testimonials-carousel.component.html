@@ -11,13 +11,24 @@
     <ngu-item NguCarouselItem *nguCarouselDef="let tm; let j = index">
         <mat-card class="p-0">
             <mat-card-content class="">
-
-              <p class="text">{{tm.text}}</p>
-              <div class="user-detail">
-                <span class="toolbar-avatar md user-photo"><img [src]="tm.photo" alt=""></span>
+            	           	
+            	<div class="user-detail">
+              	<a href="{{ tm.link }}" target="_blank">
+                	<span class="toolbar-avatar md user-photo"><img [src]="tm.photo" alt=""></span>
+                </a>
                 <span class="user-title">{{tm.title}}</span>
                 <span class="user-subtitle text-muted">{{tm.subtitle}}</span>
               </div>
+				
+              <p class="text">{{tm.text}} </p>
+              Ha collaborato con noi al brano: 
+
+				<a href="{{ tm.songlink }}" target="_blank">
+					<div [innerHTML]="tm.songtitle"></div>
+ 				</a>
+              
+
+              
             </mat-card-content>
         </mat-card>
     </ngu-item>
