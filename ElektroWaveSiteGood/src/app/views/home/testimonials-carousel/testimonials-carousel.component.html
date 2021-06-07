@@ -19,13 +19,19 @@
                 <span class="user-title">{{tm.title}}</span>
                 <span class="user-subtitle text-muted">{{tm.subtitle}}</span>
               </div>
-				
-              <p class="text">{{tm.text}} </p>
-              Ha collaborato con noi al brano: 
+			
+			
+			
+		          <p class="text">{{tm.text}} </p>
+	              
+				  <div *ngIf="tm.songtitle">
+					  Ha collaborato con noi al brano: 
+     		   	  	<a href="{{ tm.songlink }}" target="_blank">
+						<div [innerHTML]="tm.songtitle"></div>
+   					</a>
+				  </div>
+			
 
-				<a href="{{ tm.songlink }}" target="_blank">
-					<div [innerHTML]="tm.songtitle"></div>
- 				</a>
               
 
               
